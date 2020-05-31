@@ -12,23 +12,7 @@ Business account - UserID: medanytime@gmail.com
 Individual account - UserID: mGrey@gmail.com
                      Password: Group1@2019
 Please refer to the updated medAnyTime.sql to update the changes in database.
-This is a file with a list fo all the files that were turned in as part of the third and final stager of development for this project. 
-Mentioned below are the files.
-Deliverables 5.docx 
-FinalPresentation.ppt
-view_order_products_admis.php
-order_details_admin.php
-success.php
-paymentconfig.php
-orderplaced.php
-CODplaced.php
-payment.php
-cancel.php
-ipn.php
-testmail.php
-tmailnegative.php
-testpayment.php
-testpaymentnegative.php
+
 
 ****For Email *****
 
