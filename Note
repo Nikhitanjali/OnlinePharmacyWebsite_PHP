@@ -1,0 +1,57 @@
+The admin credentials to login to the page are -
+User ID - MedAnytime2019@gmail.com
+Password - gaya3
+
+User Credentials are -
+User ID - mGrey@gmail.com
+Password - meredith
+
+PayPal (Sandbox) Credentials:
+Business account - UserID: medanytime@gmail.com
+                   Password: Group12019
+Individual account - UserID: mGrey@gmail.com
+                     Password: Group1@2019
+Please refer to the updated medAnyTime.sql to update the changes in database.
+This is a file with a list fo all the files that were turned in as part of the third and final stager of development for this project. 
+Mentioned below are the files.
+Deliverables 5.docx 
+FinalPresentation.ppt
+view_order_products_admis.php
+order_details_admin.php
+success.php
+paymentconfig.php
+orderplaced.php
+CODplaced.php
+payment.php
+cancel.php
+ipn.php
+testmail.php
+tmailnegative.php
+testpayment.php
+testpaymentnegative.php
+
+****For Email *****
+
+Inorder for the email functionality to work we need to make changes to the following lines in the below specified files:
+
+1. Navigation: Xampp Folder -> sendmail folder->sendmail.ini file
+Change the following lines in sendmail.ini file:
+
+smtp_server=smtp.gmail.com
+smtp_port=587
+smtp_ssl=tls
+
+auth_username= medanytimeonline2019@gmail.com
+auth_password=medanytime123
+
+force_sender= medanytimeonline2019@gmail.com
+
+hostname= localhost
+
+2. Navigation: Xampp Folder -> Php -> search for php.ini file -> in that file search for keyword sendmail_path
+
+Set the path for that sendmail_path variable as:
+
+sendmail_path = C:\xampp\sendmail\sendmail.exe
+
+3. Restart the xampp after making changes to these files.

@@ -1,0 +1,134 @@
+/*** CSS File For the entire project. We 
+     have maintained the same style in all the pages ***/
+/* Styling for the body element in all pages*/
+body{
+font-family: 'Gentium Book Basic', serif;
+}
+
+/* for login & registration pages*/
+#formstyle
+{
+   width: 500px;
+   margin: auto;
+}
+
+/* for registration page*/
+#registration{
+	align: right;
+	color: white;
+	 font-size: 0.5rem;
+}
+
+
+/* for most of the buttons used*/
+button{
+	background-color:#2471A3 ;
+	color: white;
+}
+
+button1{
+	display: block;
+    width: 115px;
+    height: 25px;
+    background: #4E9CAF;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+/* To format the footer section*/	
+.wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column; 
+  justify-content: center;
+  width: 100%;
+  min-height: 100%;
+  padding: 20px;
+}
+
+/*** headings and paragraphs ***/
+#headingGroup h2 {
+  color: #5bc0de;
+  font-weight: 100;
+  font-size: 2rem;
+}
+#headingGroup h1 {
+  font-weight: 100;
+  font-size: 4rem;
+  margin-top: 40px;
+    color: #5bc0de;
+} 
+
+p {
+  color: black;
+  font-weight: 100;
+  font-size: 1.125rem;
+  line-height: 2;
+
+}
+
+	
+#registration{
+	  font-size: 1.5rem;;
+	  background-color:  #2471A3  !important;
+	    
+	  
+}
+
+/*** All styles related to nav-bar ***/
+.navbar {
+  font-size: 1.5rem;
+  font-weight: 100;
+  background-color: #2471A3  !important; 
+
+}
+
+ .nav-link{
+  color: white !important;
+  }
+  .navbar .navbar-brand{
+	  color: white !important;
+	  font-size: 1.5rem;
+  }
+.navbar-nav > li{
+  padding-left:20px;
+  padding-right:20px;
+    margin-left:20px;
+  margin-right:20px;
+
+}
+
+
+#navBarSearchForm 
+{
+	width:250px !important;
+	  margin-top: 5px;
+	
+}
+
+/* Search button in the nav bar */
+#SearchButton{
+	margin-top: 10px;
+
+}
+
+
+/* for the background image in user and admin home pages*/
+.image{
+	background-image: url("medicinesc1.jpg");
+     width: 100%;
+	height:100%;
+    height: 400px;
+	position: relative;
+	padding:0;
+	margin:0;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: 100% 400px;
+  background-attachment: fixed;
+ overflow: hidden;
+}
+
